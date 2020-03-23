@@ -14,7 +14,22 @@ With small amount of changes, you can also:
 
 This tool currently does not support semantic segmentation.
 
-## Installation
+## Installation (Windows)
+
+ 1. Clone this repository.
+ 2. `cd BeaverDam`
+ 3. Make sure Python 3 is installed.  
+    If not: https://www.python.org/downloads/
+ 4. Make the Python virtualenv for this project.  
+    `scripts/init.cmd`
+ 4. Setup the project:  
+    `scripts/setup.cmd`
+ 5. Download sample data:  
+    `scripts/serve.cmd`
+
+When running any `./manage.py` commands, use `cd venv\bin\ & activate & cd ..\..` to enter venv first.
+
+## Installation (Linux)
 
  1. Clone this repository.
  2. `cd BeaverDam`
