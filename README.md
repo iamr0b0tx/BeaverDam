@@ -20,11 +20,13 @@ This tool currently does not support semantic segmentation.
  2. `cd BeaverDam`
  3. Make sure Python 3 is installed.  
     If not: https://www.python.org/downloads/
- 4. Make the Python virtualenv for this project.  
+ 4. Make sure virtualenv is installed.  
+    If not: `pip3 install virtualenv` or maybe `sudo pip3 install virtualenv`
+ 5. Make the Python virtualenv for this project.  
     `scripts/init.cmd`
- 4. Setup the project:  
+ 6. Setup the project:  
     `scripts/setup.cmd`
- 5. Download sample data:  
+ 7. Download sample data:  
     `scripts/serve.cmd`
 
 When running any `./manage.py` commands, use `cd venv\bin\ & activate & cd ..\..` to enter venv first.
@@ -35,11 +37,11 @@ When running any `./manage.py` commands, use `cd venv\bin\ & activate & cd ..\..
  2. `cd BeaverDam`
  3. Make sure Python 3 is installed.  
     If not: `brew install python3` (Mac) or `sudo apt-get install python3` (Ubuntu)
- 3. Make sure virtualenv is installed.  
+ 4. Make sure virtualenv is installed.  
     If not: `pip3 install virtualenv` or maybe `sudo pip3 install virtualenv`
- 4. Make the Python virtualenv for this project:  
+ 5. Make the Python virtualenv for this project:  
     `scripts/setup`
- 5. Download sample data:  
+ 6. Download sample data:  
     `scripts/seed -f`
 
 When running any `./manage.py` commands, use `source venv/bin/activate` to enter venv first.
