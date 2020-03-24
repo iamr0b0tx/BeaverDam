@@ -21,7 +21,7 @@ This tool currently does not support semantic segmentation.
  3. Make sure Python 3 is installed.  
     If not: https://www.python.org/downloads/
  4. Make sure virtualenv is installed.  
-    If not: `pip3 install virtualenv` or maybe `sudo pip3 install virtualenv`
+    If not: `pip install virtualenv`
  5. Make the Python virtualenv for this project.  
     `scripts/init.cmd`
  6. Setup the project:  
