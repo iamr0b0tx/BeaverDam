@@ -20,13 +20,14 @@ This tool currently does not support semantic segmentation.
  2. `cd BeaverDam`
  3. Make sure Python 3 is installed.  
     If not: https://www.python.org/downloads/
- 4. Make sure virtualenv is installed.  
+ 4. Download this (https://s3-us-west-2.amazonaws.com/beaverdam/videos/test_vid2.mp4) into this directory: `annotator/static/videos/` and rename as `1.mp4`
+ 5. Make sure virtualenv is installed.  
     If not: `pip install virtualenv`
- 5. Make the Python virtualenv for this project.  
+ 6. Make the Python virtualenv for this project.  
     `scripts/init.cmd`
- 6. Setup the project:  
+ 7. Setup the project:  
     `scripts/setup.cmd`
- 7. Download sample data:  
+ 8. Download sample data:  
     `scripts/serve.cmd`
 
 When running any `./manage.py` commands, use `cd venv\bin\ & activate & cd ..\..` to enter venv first.
